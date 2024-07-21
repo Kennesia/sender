@@ -1,4 +1,4 @@
 <?php
-$kennesia_telegram_id = "6002702148";
-$kennesia_token_bot = "6817154229:AAG87GiRThtqHSok221S6-ry1a5k69xgqX4";
+$kennesia_telegram_id = "7375114326";
+$kennesia_token_bot = "7209252405:AAGE4fLyzTA9T-1l4Knq3Gr5uThWkUjtzB4";
 ?>
